@@ -1,0 +1,30 @@
+GET http://localhost:3000/api/tasks
+
+###
+
+GET http://localhost:3000/api/tasks/9
+
+###
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Learn NextJS",
+    "description": "Learn NextJS to build scalable projects"
+}
+
+###
+
+PUT  http://localhost:3000/api/tasks/6
+Content-Type: application/json
+
+{
+    "title": "Learn ReactJS",
+    "description": "ReactJS is required to work as a frontend engineer"
+}
+
+###
+
+DELETE   http://localhost:3000/api/tasks/4
+
